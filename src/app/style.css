@@ -1,0 +1,45 @@
+* {
+  direction: rtl;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Vazir", sans-serif;
+  font-size: 2rem;
+  margin: 2rem;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.error {
+  color: red;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.error::before {
+  content: "⚠️ ";
+}
+
+.warn {
+  color: #ff9800;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.warn::before {
+  content: "⚠️ ";
+}
+
+.message {
+  color: #4caf50;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.message::before {
+  content: "✅ ";
+}
